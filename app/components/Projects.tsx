@@ -22,7 +22,7 @@ export default function Projects(){
         //         }}>
         <div id='Projects' className="my-[60px] pt-5 bg-[#0F0E0E] font-work md:my-[120px] md:pt-[60px] lg:my-[150px]">
             <h1 className="text-white text-center text-xl leading-6 font-medium md:text-3xl">
-                Curious What I've Done?
+                Curious What I&apos;ve Done?
             </h1>
 
             <div

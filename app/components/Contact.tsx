@@ -7,7 +7,7 @@ function Contact(){
     return(
         <div id='Contact' className="font-work mx-auto max-w-2xl lg:max-w-7xl md:px-6">
             <h1 className="text-white text-center font-medium text-xl mx-5 leading-6 md:mx-0 md:text-3xl">
-                Let's collaborate and craft something extraordinary!
+                Let&apos;s collaborate and craft something extraordinary!
             </h1>
 
             <p className="text-gray-300 mx-10 text-center mt-4 text-sm leading-6 sm:mx-16 md:text-xl md:mx-12 lg:mx-32 ">
