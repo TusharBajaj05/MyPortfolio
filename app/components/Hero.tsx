@@ -29,7 +29,7 @@ export default function Hero(){
                 </h1>
 
                 <h3 className="text-gray-400 font-light text-[25px] leading-[32.5px] py-2 md:text-[56px] md:leading-[72.8px]">
-                    I'm <span className="font-semibold text-[#E3E4E6]">
+                    I&apos;m <span className="font-semibold text-[#E3E4E6]">
                         Tushar Bajaj <br /> Software Developer
                         </span>
                 </h3>

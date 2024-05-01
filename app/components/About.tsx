@@ -41,7 +41,7 @@ export default function About(){
                     <br /> <br />
                     Other than coding, I love to cook food, watch movies and travel to 
                     new places.
-                    I'm excited to connect and work together and refine my skills 
+                    I&apos;m excited to connect and work together and refine my skills 
                     with the right company. 
                 </motion.p>
             </div>
