@@ -13,7 +13,7 @@ import photo from "../../public/file.png";
 
 export default function Hero(){
     return(
-        <div className="flex flex-col-reverse mx-[30px] mt-[50px] lg:mx-0 lg:h-[550px] lg:flex-row lg:justify-between lg:mt-[80px]">
+        <div className="flex flex-col-reverse mx-[30px] mt-[50px] lg:mx-0 lg:h-[650px] lg:flex-row lg:justify-between lg:mt-[80px]">
             <div className="w-full text-center mt-[30px] lg:w-[48%] lg:text-left md:my-[63px]">
                 <h1 className="flex justify-center text-[35px] text-gray-400 font-light gap-1.5
                     md:gap-3 md:text-[60px] lg:justify-normal">

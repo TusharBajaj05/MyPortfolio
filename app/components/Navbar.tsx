@@ -28,7 +28,7 @@ export default function Navbar() {
                     <div className="flex flex-col justify-center items-center">
                         {links.map((link) => (
                         <div key={link.id} className="mb-[60px]">
-                            <Link to={link.name} smooth={true} offset={-25} id={link.id} duration={2000} delay={500}
+                            <Link to={link.name} smooth={true} offset={-50} id={link.id} duration={2000} delay={500}
                                 className="text-white text-3xl leading-8 transition duration-300 hover:text-purple-500 hover:cursor-pointer"
                                 onClick={() => setOpen(false)}>
                                 {link.name}
@@ -43,13 +43,13 @@ export default function Navbar() {
             </div>
 
             <div className="flex" >
-                <Link to='Home' offset={-250}><TB className="hidden w-full h-12 lg:block" /></Link>
+                <Link to='Home' offset={-200}><TB className="hidden w-full h-12 lg:block" /></Link>
             </div>
 
             <nav className="hidden items-center lg:flex lg:gap-3">
                 {links.map((link) => (
                     <div key={link.id}>
-                        <Link to={link.name} smooth={true} offset={-200} id={link.id} duration={2000} delay={500}
+                        <Link to={link.name} smooth={true} offset={-230} id={link.id} duration={2000} delay={500}
                             className="text-base font-medium text-white py-2 px-3 
                                 lg:py-3 lg:px-6 transition duration-100 hover:text-purple-500 hover:cursor-pointer hover:font-semibold">
                             {link.name}
