@@ -20,7 +20,7 @@ export default function Navbar() {
 
     return (
         <div className={`${open ? "w-full h-full fixed top-0 left-0 z-50 bg-black bg-black/90 overflow-hidden transition duration-300 delay-100 overflow-x-hidden" : 
-            "flex items-center justify-between font-work py-4 px-5 mt-6 mx-auto max-w-2xl sticky top-0 bg-black z-50 lg:max-w-7xl md:p-6 md:mt-[40px]"}`}>
+            "flex items-center justify-between font-work py-4 px-5 mt-2 mx-auto max-w-2xl sticky top-0 bg-black z-50 lg:max-w-7xl md:p-6 md:mt-[10px] lg:mt-5"}`}>
            
             
                 <div className={`${open ? "block" : "hidden"}`}>

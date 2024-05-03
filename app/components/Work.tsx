@@ -38,7 +38,7 @@ export default function Work(){
                         Dec 2023 - Feb 2024
                     </p>
                 
-                    <div className="lg:mt-[198px] lg:mb-[113px]">
+                    <div className="lg:mt-[175px] xl:mt-[170px]">
                         <h3 className="text-purple-500 text-[25px] leading-[25px] font-normal">
                             Infosys, Calgary
                         </h3>
@@ -50,7 +50,7 @@ export default function Work(){
 
                 <div className="text-center pb-16">
                     <div className="h-8 w-8 rounded-full bg-purple-500 border-2"></div>
-                    <div className="border-gray-300 border-dashed border-2 h-full inline-block -mb-[6px]"></div>
+                    <div className="border-gray-300 border-dashed border-2 h-[270px] inline-block -mb-[6px] sm:h-[205px] md:h-[240px] lg:h-[210px] xl:h-[185px]"></div>
                     <div className="h-8 w-8 rounded-full bg-gray-500 border-2"></div>
                 </div>
 

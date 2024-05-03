@@ -32,7 +32,7 @@ export default function About(){
                 </h1>
                 <motion.p whileInView= {{opacity: [1], x: 0}} initial= {{opacity: 0, x: 200}} transition={{duration: 0.5}}
                     className="font-light text-[#E3E4E6] text-sm leading-6 md:text-xl md:leading-8">
-                    Hey there! I&apos;am Tushar Bajaj Front-End developer passionate about 
+                    Hey there! I&apos;am Tushar Bajaj, Software developer passionate about 
                     creating eye-catching, accessible and user friendly applications. 
                     My interest include joining an exciting team of passionate people, 
                     learn new skills and make new friends. I love to interact with 

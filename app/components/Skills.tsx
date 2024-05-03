@@ -4,7 +4,7 @@ import { default as Js } from '../svg/icon-javscript.svg';
 import { default as Ts } from '../svg/icon-typescript.svg';
 import { default as React } from '../svg/icon-react.svg';
 import { default as Next } from '../svg/icon-nextjs.svg';
-import { default as Html } from '../svg/html.svg';
+import { default as Html } from '../svg/html5.svg';
 import { default as Css } from "../svg/css3.svg";
 import { default as Tailwind } from "../svg/tailwindcss.svg";
 import { default as Sql } from "../svg/sql.svg";
