@@ -13,7 +13,7 @@ import photo from "../../public/file.png";
 
 export default function Hero(){
     return(
-        <div className="flex flex-col-reverse mx-[30px] mt-[50px] lg:mx-0 lg:h-[650px] lg:flex-row lg:justify-between lg:mt-[80px]">
+        <div className="flex flex-col-reverse mx-[30px] mt-[40px] lg:mx-0 lg:h-[550px] lg:flex-row lg:justify-between lg:mt-[60px]">
             <div className="w-full text-center mt-[30px] lg:w-[48%] lg:text-left md:my-[63px]">
                 <h1 className="flex justify-center text-[35px] text-gray-400 font-light gap-1.5
                     md:gap-3 md:text-[60px] lg:justify-normal">
@@ -28,17 +28,17 @@ export default function Hero(){
                     />
                 </h1>
 
-                <h3 className="text-gray-400 font-light text-[35px] md:py-2 md:text-[60px]">
+                <h3 className="text-gray-400 font-light text-[35px] leading-[45px] md:text-[60px] md:leading-[72px]">
                     I&apos;m <span className="font-semibold text-[#E3E4E6] md:tracking-tight">
                         Tushar Bajaj <br /> Software Developer
                         </span>
                 </h3>
 
-                <p className="text-[#E3E4E6] font-light text-lg mt-2 md:mt-4 md:text-2xl md:tracking-tight">
+                <p className="text-[#E3E4E6] font-light text-lg mt-2 md:mt-0 md:text-2xl md:tracking-tight">
                     Welcome to my portfolio! Incase you have any projects let&apos;s connect and discuss
                 </p>
 
-                <div className="flex justify-center my-4 items-center gap-6 md:gap-10 md:my-[30px] lg:justify-normal ">
+                <div className="flex justify-center my-4 items-center gap-6 md:gap-9 md:my-[24px] lg:justify-normal ">
                     <a href="https://github.com/TusharBajaj05" target="_blank">
                         <Github className="bg-white fill-black w-6 h-6 pt-1 rounded-full stroke-1 hover:cursor-pointer md:w-10 md:h-10" />
                     </a>
@@ -51,7 +51,7 @@ export default function Hero(){
                 <motion.button
                     whileHover={{ scale: 1.2 }}
                     transition={{ type: "spring", stiffness: 500, damping: 10 }}
-                    className="bg-purple-500 py-3 px-6 md:px-8 md:py-4 rounded-full text-lg
+                    className="bg-purple-500 py-2 px-5 md:px-6 md:py-3 rounded-full text-lg
                  text-white md:text-xl font-medium hover:bg-purple-600">
                     Hire Me
                 </motion.button>

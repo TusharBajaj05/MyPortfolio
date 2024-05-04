@@ -21,7 +21,7 @@ export default function ProjectInfo(props: any){
             scale: scaleProgress,
             opacity: opacityProgress,
             }}>
-            <p className="text-[#E3E4E6] text-base font-semibold mb-4">
+            <p className="text-[#E3E4E6] text-2xl md:text-3xl font-semibold mb-4">
                 {props.projectData.name}
             </p>
             <p className="text-[#E3E4E6] mb-4 text-sm leading-6 font-light 

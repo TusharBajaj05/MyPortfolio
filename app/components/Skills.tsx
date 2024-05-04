@@ -37,6 +37,31 @@ export default function Skills(){
 
             <div className="flex flex-wrap gap-x-10 gap-y-[30px] justify-between 
                 text-center mt-[30px] sm:gap-x-28 md:gap-x-24 lg:gap-x-0 md:mt-24 md:px-2">
+                
+                <motion.div
+                variants={fadeInAnimationVariants}
+                    initial= "initial"
+                    whileInView="animate"
+                    custom={3}
+                className='flex flex-col gap-y-2 items-center'>
+                    <React className="w-[42px] h-[42px] md:h-[64px] md:w-[64px]" />
+                    <p className='text-[#D1D5DB] text-xs md:text-lg font-inter tracking-tighter'>
+                        React
+                    </p>
+                </motion.div>
+                
+                <motion.div
+                variants={fadeInAnimationVariants}
+                    initial= "initial"
+                    whileInView="animate"
+                    custom={4}
+                className='flex flex-col gap-y-2 items-center'>
+                    <Next className="w-[42px] h-[42px] md:h-[64px] md:w-[64px]" />
+                    <p className='text-[#D1D5DB] text-xs md:text-lg font-inter tracking-tighter'>
+                        Next.js
+                    </p>
+                </motion.div>
+
                 <motion.div 
                     variants={fadeInAnimationVariants}
                     initial= "initial"
@@ -64,30 +89,6 @@ export default function Skills(){
                 variants={fadeInAnimationVariants}
                     initial= "initial"
                     whileInView="animate"
-                    custom={3}
-                className='flex flex-col gap-y-2 items-center'>
-                    <React className="w-[42px] h-[42px] md:h-[64px] md:w-[64px]" />
-                    <p className='text-[#D1D5DB] text-xs md:text-lg font-inter tracking-tighter'>
-                        React
-                    </p>
-                </motion.div>
-                
-                <motion.div
-                variants={fadeInAnimationVariants}
-                    initial= "initial"
-                    whileInView="animate"
-                    custom={4}
-                className='flex flex-col gap-y-2 items-center'>
-                    <Next className="w-[42px] h-[42px] md:h-[64px] md:w-[64px]" />
-                    <p className='text-[#D1D5DB] text-xs md:text-lg font-inter tracking-tighter'>
-                        Next.js
-                    </p>
-                </motion.div>
-                
-                <motion.div
-                variants={fadeInAnimationVariants}
-                    initial= "initial"
-                    whileInView="animate"
                     custom={5}
                 className='flex flex-col gap-y-2 items-center'>
                     <Html className="w-[42px] h-[42px] md:h-[64px] md:w-[64px]" />
@@ -101,7 +102,7 @@ export default function Skills(){
                     initial= "initial"
                     whileInView="animate"
                     custom={6}
-                className='flex flex-col gap-y-2 items-center'>
+                className='flex flex-col gap-y-2 items-center ml-2'>
                     <Css className="w-[42px] h-[42px] md:h-[64px] md:w-[64px]" />
                     <p className='text-[#D1D5DB] text-xs md:text-lg font-inter tracking-tighter'>
                         CSS
