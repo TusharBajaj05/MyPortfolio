@@ -34,7 +34,7 @@ export default function Hero(){
                         </span>
                 </h3>
 
-                <p className="text-[#E3E4E6] font-light text-lg mt-2 md:mt-0 md:text-2xl md:tracking-tight">
+                <p className="text-[#E3E4E6] font-light text-lg mt-2 md:text-2xl md:tracking-tight">
                     Welcome to my portfolio! Incase you have any projects let&apos;s connect and discuss
                 </p>
 
