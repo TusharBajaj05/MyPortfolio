@@ -12,7 +12,7 @@ function Contact(){
 
             <p className="text-gray-300 mx-10 text-center mt-4 text-sm leading-6 sm:mx-16 md:text-xl md:mx-12 lg:mx-32 ">
                 If you like what you see, (and how could you not?) why not shoot me 
-                an email? I would love to talk more about your team dynamic and the 
+                an email? I would love to talk more about your team dynamics and the 
                     products you create.
             </p>
 
@@ -24,11 +24,14 @@ function Contact(){
                         <div className="bg-[#EDD8FF80] rounded-sm p-4">
                             <Mail className="text-purple-500 stroke-2 " />
                         </div>
-                        <span className="flex flex-col gap-y-1 text-[#424E60] text-xs md:text-sm">
+                        <div className="flex flex-col space-y-1">
+                        <span className="text-[#424E60] text-xs md:text-sm">
                             My Email
+                        </span>
                         <span className="text-[#132238] font-medium tracking-tighter text-xs md:text-base">
                             Tusharbajaj.tb@gmail.com
-                        </span></span>
+                        </span>
+                        </div>
                     </div>
 
                     <div className="flex gap-x-[13px] items-center py-2.5 rounded-[10px] 
@@ -36,11 +39,14 @@ function Contact(){
                         <div className="bg-[#EDD8FF80] rounded-sm p-4">
                             <Phone className="text-purple-500 stroke-2 " />
                         </div>
-                        <span className="flex flex-col gap-y-1 text-[#424E60] text-xs md:text-sm">
-                            Phone Number
-                        <span className="text-[#132238] font-medium tracking-tighter text-xs md:text-base">
-                            +1250-797-9044
-                        </span></span>
+                        <div className="flex flex-col space-y-1">
+                            <span className="text-[#424E60] text-xs md:text-sm">
+                                Phone Number
+                            </span>
+                            <span className="text-[#132238] font-medium tracking-tighter text-xs md:text-base">
+                                +1 250-797-9044
+                            </span>
+                        </div>
                     </div>
 
                     <div className="flex gap-x-[13px] items-center py-2.5 rounded-[10px] 
@@ -48,11 +54,14 @@ function Contact(){
                         <div className="bg-[#EDD8FF80] rounded-sm p-4">
                             <MapPin className="text-purple-500 stroke-2 " />
                         </div>
-                        <span className="flex flex-col gap-y-1 text-[#424E60] text-xs md:text-sm">
-                            Address
-                        <span className="text-[#132238] font-medium tracking-tighter text-xs md:text-base">
-                            148 Falshire Way NE, Calgary AB
-                        </span></span>
+                        <div className="flex flex-col space-y-1">
+                            <span className="text-[#424E60] text-xs md:text-sm">
+                                Address
+                            </span>
+                            <span className="text-[#132238] font-medium tracking-tighter text-xs md:text-base">
+                                Canada
+                            </span>
+                        </div>
                     </div>
                 </div>
 

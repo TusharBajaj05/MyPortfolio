@@ -1,6 +1,6 @@
 import { Copyright } from 'lucide-react';
 import { default as TB } from '../svg/logo.svg';
-
+import {Heart} from "lucide-react";
 
 export default function Footer(){
     return(
@@ -14,7 +14,7 @@ export default function Footer(){
                 <Copyright className='w-4 h-4' />
                 <span className='text-sm md:text-base'>2024</span>
                 <div className='bg-white h-3.5 w-[1px]' />
-                <h3 className='text-sm font-medium md:text-base'>Developed By Tushar Bajaj</h3>
+                <h3 className='flex text-sm font-medium md:text-base'>Tushar Bajaj. Made with&nbsp;<Heart color='red' fill='red' /> &nbsp;and lots of coffee</h3>
                 
             </div>
         </div>
