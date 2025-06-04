@@ -4,7 +4,7 @@ import ushop from "../../public/ushop.png";
 
 export let projectData = [
     {
-        name: 'NETFLIX CLONE' as string,
+        name: 'StreamSphere' as string,
         details: 'Project aimed at replicating the Netflix offers a comprehensive collection of movies and TV shows, along with curated recommendations tailored to each user\'s preferences. Technologies Used - React, Next.js, and Next-Auth for secure authentication, Supabase and Prisma to manage the database, Enhanced with Tailwind CSS, Shadcn UI for styling' as string,
         images: neflix as any,
         url: 'https://neflix-nextjs.vercel.app/' as string,
