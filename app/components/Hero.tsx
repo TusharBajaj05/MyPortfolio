@@ -35,7 +35,7 @@ export default function Hero(){
                 </h3>
 
                 <p className="text-[#E3E4E6] font-light text-lg mt-2 md:text-2xl md:tracking-tight">
-                    Welcome to my portfolio! Incase you have any projects let&apos;s connect and discuss
+                    Welcome to my portfolio! Incase you have any projects let&apos;s connect and discuss how we can bring your ideas to life.
                 </p>
 
                 <div className="flex justify-center my-4 items-center gap-6 md:gap-9 md:my-[24px] lg:justify-normal ">
