@@ -30,7 +30,7 @@ export default function About(){
                 <h1 className="mb-5 font-medium text-white md:text-[30px] md:leading-6 md:mb-12">
                     About me
                 </h1>
-                <motion.p whileInView= {{opacity: [1], x: 0}} initial= {{opacity: 0, x: 200}} transition={{duration: 0.5}}
+                {/* <motion.p whileInView= {{opacity: [1], x: 0}} initial= {{opacity: 0, x: 200}} transition={{duration: 0.5}}
                     className="font-light text-[#E3E4E6] text-sm leading-6 md:text-xl md:leading-8">
                     Hey there! I&apos;am Tushar Bajaj, Software developer passionate about 
                     creating eye-catching, accessible and user friendly applications. 
@@ -43,6 +43,14 @@ export default function About(){
                     new places.
                     I&apos;m excited to connect and work together and refine my skills 
                     with the right company. 
+                </motion.p> */}
+                <motion.p whileInView= {{opacity: [1], x: 0}} initial= {{opacity: 0, x: 200}} transition={{duration: 0.5}}
+                    className="font-light text-[#E3E4E6] text-sm leading-6 md:text-xl md:leading-8">
+                        I&apos;m a frontend developer with expertise in React and Next.js, specializing in creating engaging user experiences and responsive web applications. My work focuses on building modern interfaces using cutting-edge technologies like TypeScript, Tailwind CSS, and Shadcn UI.
+                        <br />
+                        I&apos;ve developed StreamSphere, a Netflix-inspired streaming platform featuring personalized recommendations and secure user authentication, and built a comprehensive e-commerce platform serving diverse customer segments with seamless navigation and integrated payment solutions using Stripe.
+                        <br/>
+                        My approach combines clean, maintainable code with exceptional user experience design, ensuring every application delivers both functionality and visual appeal. 
                 </motion.p>
             </div>
         </motion.div>
